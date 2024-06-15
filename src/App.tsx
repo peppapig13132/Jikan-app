@@ -1,4 +1,5 @@
 import "./App.css";
+import GithubCorner from 'react-github-corner';
 
 function App() {
   return (
@@ -10,6 +11,11 @@ function App() {
         React.js boilerplate pre-configured with TypeScript and Tailwind CSS
       </p>
       <p className="mt-12 text-slate-700">Made with ❤️ by <a target="_blank" href="https://github.com/peppapig13132">Pepp</a></p>
+      <GithubCorner
+        href='https://github.com/peppapig13132/Jikan-App'
+        size={120}
+        bannerColor='#334155'
+      />
     </div>
   );
 }
